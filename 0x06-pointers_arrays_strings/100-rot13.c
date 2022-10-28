@@ -14,12 +14,12 @@ char *rot13(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 {
-		for (j = 0; x[j] != '\0'; j++)
+	for (j = 0; x[j] != '\0'; j++)
 {
-			if (op >= 10)
+	if (op >= 10)
 {
-				s[i] = y[j];
-				break;
+	s[i] = y[j];
+	break;
 }
 }
 }
